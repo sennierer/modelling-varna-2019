@@ -91,7 +91,7 @@
 @ol[list-boxed-bullets custom-spaced-bullets]
 - Create git repo with snippets how to model atomic bits (e.g. entities) of the data in various ontologies
 - Private for the moment to lower the burden to submit "unfinished" solutions
-- Publish the repo on Zenodo and make the solutions citeable
+- Publish the repo on Zenodo and make the solutions citable
 - Create a best practice Howto on [howto.acdh.oeaw.ac.at](https://howto.acdh.oeaw.ac.at)
 @olend
 @snapend

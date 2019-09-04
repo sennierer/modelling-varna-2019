@@ -27,8 +27,8 @@ CIDOC XML example
 @snap[center span-100]
 @ol[list-boxed-bullets custom-spaced-bullets]
 - Based on metaphacts/researchspace software
-- Data even if only partially serialized goes in
-- Readymade features (e.g. list of used classes) used to explore data (overlaps)
+- all data - even if only partially serialized - goes in
+- Ready-made features (e.g. list of used classes) used to explore data (overlaps)
 - Sparql + templating engine used to create custom views
 @olend
 @snapend
