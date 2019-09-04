@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cidoc="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:void="http://rdfs.org/ns/void#"
+>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_class1">
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:class rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E69_Death"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_class2">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:triples>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:properties>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:class rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:distinctObjects>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property7">
+    <void:property rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end"/>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctObjects>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:triples>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctSubjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:entities>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#">
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property5"/>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property0"/>
+    <dct:description xml:lang="de">APIS Data</dct:description>
+    <void:classPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_class3"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</void:triples>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:distinctSubjects>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</void:classes>
+    <dct:creator xml:lang="de">Matthias Schlögl, Peter Andorfer</dct:creator>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property6"/>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property1"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <dct:publisher xml:lang="de">ACDH-OeAW</dct:publisher>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property8"/>
+    <dct:title xml:lang="de">TITLE</dct:title>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-09-04</dct:created>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</void:distinctObjects>
+    <void:classPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_class1"/>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property3"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</void:properties>
+    <void:classPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_class0"/>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property7"/>
+    <void:classPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_class2"/>
+    <void:classPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_class4"/>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property4"/>
+    <void:propertyPartition rdf:resource="https://apis.acdh.oeaw.ac.at/entities#_property2"/>
+    <dct:source rdf:resource="https://apis.acdh.oeaw.ac.at"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_class4">
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:properties>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:class rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_class3">
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:distinctObjects>
+    <void:class rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:triples>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property2">
+    <void:property rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:triples>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</void:classes>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:distinctSubjects>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</void:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/appellation/birth/141650">
+    <cidoc:P98_brought_into_life rdf:resource="https://apis.acdh.oeaw.ac.at/apis/api2/entity/141650/"/>
+    <rdfs:label xml:lang="de">Geburt von Bruno Kreisky</rdfs:label>
+    <cidoc:P4_has_time-span rdf:nodeID="Nbfc949616b474fdebc6499736ca7f33f"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N464336f95f9945ebb515eb452f1fb9cb">
+    <rdfs:label xml:lang="de">Bruno Kreisky</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property5">
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+    <void:property rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property1">
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctObjects>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:triples>
+    <void:property rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span"/>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property3">
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:distinctSubjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</void:distinctObjects>
+    <void:property rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</void:classes>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neba1e66cb0ea4027bfca919e1abd0e4e">
+    <cidoc:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-07-29</cidoc:P82a_begin_of_the_begin>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <rdfs:label>1990-07-29</rdfs:label>
+    <cidoc:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-07-29</cidoc:P82b_end_of_the_end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property0">
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:property rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P100_was_death_of"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_class0">
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:class rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</void:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</void:distinctSubjects>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</void:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property8">
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:triples>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:property rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P98_brought_into_life"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbfc949616b474fdebc6499736ca7f33f">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <cidoc:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1911-01-22</cidoc:P82a_begin_of_the_begin>
+    <cidoc:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1911-01-22</cidoc:P82b_end_of_the_end>
+    <rdfs:label>1911-01-22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property4">
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:triples>
+    <void:property rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/apis/api2/entity/141650/">
+    <owl:sameAs rdf:resource="http://d-nb.info/gnd/118566512"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <rdfs:label xml:lang="de">Bruno Kreisky</rdfs:label>
+    <cidoc:P1_is_identified_by rdf:nodeID="N464336f95f9945ebb515eb452f1fb9cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/entities#_property6">
+    <void:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:properties>
+    <void:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:entities>
+    <void:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctSubjects>
+    <void:property rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by"/>
+    <void:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:triples>
+    <void:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:distinctObjects>
+    <void:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</void:classes>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://apis.acdh.oeaw.ac.at/appellation/death/141650">
+    <cidoc:P100_was_death_of rdf:resource="https://apis.acdh.oeaw.ac.at/apis/api2/entity/141650/"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E69_Death"/>
+    <rdfs:label xml:lang="de">Tod von Bruno Kreisky</rdfs:label>
+    <cidoc:P4_has_time-span rdf:nodeID="Neba1e66cb0ea4027bfca919e1abd0e4e"/>
+  </rdf:Description>
+</rdf:RDF>
